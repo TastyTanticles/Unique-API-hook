@@ -1,0 +1,18 @@
+.singleTodo {
+  padding: 1rem;
+  background-color: #61f4de;
+  border-radius: 15px;
+  transition: 0.25s;
+}
+.todo {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+}
+
+.singleTodo:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -3px 0px 41px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 0px 41px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 0px 41px 4px rgba(0, 0, 0, 0.75);
+}
